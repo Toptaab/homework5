@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://picsum.photos/id/114/2100/1000);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+}
+/* header */
+header {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+nav a {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+/* main */
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    min-height: 88vh;
+}
+main h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 46px;
+}
+.progress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 14pxpx;
+    padding-bottom: 1rem;
+    
+    
+}
+.progress div {
+    position: relative;
+    background-color: white;
+    height: 0.5rem;
+    width: 20rem;
+    background: rgb(175,208,242);
+    background: linear-gradient(90deg, rgba(175,208,242,1) 69%, rgba(230,230,230,1) 69%);
+    box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.75);
+}
+.zero , .hundred {
+    font-size: 12px;
+}
+.zero {
+    position: relative;
+    top: 10px;
+}
+.hundred {
+    position: relative;
+    top: -5px;
+    left: 290px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.contact a img {
+    width: 2rem;
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+main button {
+	background-color:#afd0f2;
+	border:1px solid #afd0f2;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:5px 28px;
+	text-decoration:none;
+}
+main button:hover {
+	background-color:#afd0f2
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 0.5rem; */
+}
+footer hr {
+    width: 80%;
+}
+footer p {
+    text-align: center;
+}
