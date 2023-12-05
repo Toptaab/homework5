@@ -12,6 +12,7 @@ body {
     background-image: url(https://picsum.photos/id/114/2100/1000);
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 a {
     text-decoration: none;
